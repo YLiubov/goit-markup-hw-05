@@ -85,7 +85,6 @@ img {
 
 .header-nav-list {
 	margin-right: 40px;
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-list:last-child {
@@ -156,6 +155,7 @@ img {
 .header-address-link {
 	line-height: 1.5;
 	color: var(--color-slate);
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-address-list {
@@ -163,6 +163,7 @@ img {
 	padding: 24px 0 24px;
 	margin-right: 40px;
 	padding-left: 0;
+
 }
 
 .header-address-list:last-child {
