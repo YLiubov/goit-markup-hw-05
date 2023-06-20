@@ -68,7 +68,7 @@
 			<section class="hero">
 				<div class="container">
 					<h1 class="hero-title">Effective Solutions for Your Business</h1>
-					<button data-modal-open class="hero-button button" type="button">Order Service</button>
+					<button  class="hero-button button" type="button" data-modal-open>Order Service</button>
 				</div>
 			</section>
 			<!-- section 2 -->
@@ -439,10 +439,13 @@
 				</div>
 			</div>
 		</footer>
-		<div data-modal class="backdrop is-hidden">
+		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
-				
-				<button data-modal-close> </button>
+				<button class="modal-close-button" data-modal-close> 
+					<svg class="modal-close-icon" width="12" height="12">
+						<use href="./images/icons/hero-icon/close.svg"></use>
+					</svg>
+				</button>
 			</div>
 		</div>
 		<script src="./js/modal.js"></script>
