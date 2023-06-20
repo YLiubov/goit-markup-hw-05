@@ -242,6 +242,17 @@ img {
 }
 
 /*
+=========  modal style   ========= 
+*/
+
+.backdrop,
+.is-hidden {
+visibility: hidden;
+opacity: 0;
+pointer-events: none;
+}
+
+/*
 ========= advantages style section 2 ========= 
 */
 .advantages {
