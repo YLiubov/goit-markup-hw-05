@@ -674,6 +674,7 @@ margin-bottom: 8px;
 
 .card-thumb {
 	position: relative;
+	overflow: hidden;
 }
 
 /*
@@ -687,10 +688,17 @@ margin-bottom: 8px;
 	background-color: var(--color-iris);
 	width: 100%;
 	height: 100%;
+	transition: transform var(--transition-effect);
+	transform: translateY(100%);
 }
 
 .overlay-text {
 	color: var(--color-cloud);
 	padding: 40px 32px;
 
+}
+
+.main-card-link:hover .overlay {
+	transform: translateY(0);
+}
 }
