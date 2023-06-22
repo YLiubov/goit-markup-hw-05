@@ -274,19 +274,6 @@ img {
 	padding: 72px 24px 24px 24px;
 }
 
-.modal-close-button {
-	position: absolute;
-	right: 24px;
-	top: 24px;
-	width: 24px;
-	height: 24px;
-	padding: 0;
-	cursor: pointer;
-	background-color: var(--color-cornflower);
-	border-radius: 50%;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
 .modal-send-button {
 	font-family: var(--primary-font);
 	font-weight: 500;
@@ -314,8 +301,32 @@ img {
 	background-color: var(--color-ocean);
 }
 
+.modal-close-button {
+	position: absolute;
+	right: 24px;
+	top: 24px;
+	width: 24px;
+	height: 24px;
+	padding: 0;
+	cursor: pointer;
+	background-color: var(--color-cornflower);
+	border-radius: 50%;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.modal-close-button:hover,
+.modal-close-button:focus {
+	background-color: var(--color-ocean);
+	border: none;
+}
+
 .modal-close-icon {
 	fill: var(--color-grey);
+}
+
+.modal-close-icon:hover,
+.modal-close-icon:focus {
+	fill: var(--color-white);
 }
 
 .modal-icon {
@@ -442,6 +453,7 @@ img {
 	fill: transparent;
 	align-items: center;
 	justify-content: center;
+	fill: transparent;
 }
 
 .check-text a {
@@ -452,9 +464,21 @@ img {
 .input-check:checked + .check-text span {
 	background-color: var(--color-ocean);
 	border: none;
+	fill: var(--color-white);
 }
 
-
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+  }
 
 /*
 ========= advantages style section 2 ========= 
@@ -484,9 +508,6 @@ img {
 
 }
 
-.about-icon {
-
-}
 
 .advantages-title {
 	font-weight: 500;
