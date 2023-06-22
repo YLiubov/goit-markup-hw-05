@@ -491,21 +491,26 @@
 							</svg>
 						</div>
 					</div>
-					<div class="modal-comment">
+					<div class="modal-field">
 						<label for="user-comment" class="modal-lable">Comment</label>
 						<textarea
-						name="user-comment"
+						name="modal-text"
 						id="user-comment"
-						class="modal-input-comment"
+						class="modal-textarea"
 						placeholder="Text input"></textarea>
 					</div>
 					<div class="modal-checkbox">
 						<input type="checkbox"
 							name="user-privacy"
 							id="user-privacy"
-							class="modal-check"
+							class="input-check"
 							value="true">
-						<label for="user-privacy" class="modal-checkbox-lable">I accept the terms and conditions of the<span class=""></span></label>
+						<label for="user-privacy" class="check-text">
+							<span><svg class="check-icon" width="10" height="8">
+								<use href="./images/icons.svg#icon-check"></use>
+							</svg>
+							</span> accept the terms and conditions of the 
+							<a href="#">Privacy Policy</a></label>
 					</div>
 					<button type="submit" class="modal-send-button button">Send</button>
 				</form>
