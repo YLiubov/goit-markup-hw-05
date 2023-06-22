@@ -362,6 +362,10 @@ img {
 	letter-spacing: 0.04em;
 }
 
+.input-wrap {
+	position: relative;
+}
+
 .modal-form {
 	margin-bottom: 8px;
 	position: relative;
@@ -423,7 +427,7 @@ img {
 	color: var(--color-light-slate);
 }
 
-.checkbox-lable {
+.modal-check {
 	width: 16px;
 	height: 16px;
 	border: 1px solid rgba(46, 47, 66, 0.4);
@@ -838,5 +842,4 @@ margin-bottom: 8px;
 
 .main-card-link:hover .overlay {
 	transform: translateY(0);
-}
 }
