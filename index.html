@@ -442,7 +442,7 @@
 		<!-- modal -->
 		<div class="modal-box backdrop is-hidden" data-modal>
 			<div class="modal">
-				<button type="button" class="modal-close-button " data-modal-close> 
+				<button type="button" class="modal-close-button"> 
 					<svg class="modal-close-icon" width="10" height="10">
 						<use href="./images/icons.svg#icon-close-modal" ></use>
 					</svg>
@@ -494,7 +494,7 @@
 					<div class="modal-field">
 						<label for="user-comment" class="modal-lable">Comment</label>
 						<textarea
-						name="modal-text"
+						name="user-comment"
 						id="user-comment"
 						class="modal-textarea"
 						placeholder="Text input"></textarea>
@@ -506,11 +506,11 @@
 							class="input-check visually-hidden"
 							value="true">
 						<label for="user-privacy" class="check-text">
-							<span><svg class="check-icon" width="10" height="8">
+							<span class="icon-check"><svg class="check-icon" width="10" height="8">
 								<use href="./images/icons.svg#icon-check"></use>
 							</svg>
 							</span> I accept the terms and conditions of the 
-							<a href="#">Privacy Policy</a></label>
+							<a class="modal-check-link" href="#">Privacy Policy</a></label>
 					</div>
 					<button type="submit" class="modal-send-button button">Send</button>
 				</form>
