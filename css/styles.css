@@ -324,8 +324,8 @@ img {
 	fill: var(--color-grey);
 }
 
-.modal-close-icon:hover,
-.modal-close-icon:focus {
+.modal-close-button:hover svg ,
+.modal-close-button:focus svg  {
 	fill: var(--color-white);
 }
 
@@ -783,7 +783,7 @@ margin-bottom: 8px;
 }
 
 .footer-bottom {
-	display: flex;
+	display: inline-block;
 	justify-content: space-between;
 	align-items: center;
 	margin-left: 80px;
